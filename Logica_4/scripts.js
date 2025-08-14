@@ -1,8 +1,10 @@
+// variaveis 
 const tarefainput = document.getElementById('inputtext');
 const butao = document.getElementById('buttonclick');
 const lista = document.getElementById('listaTarefas');
 const limpar = document.getElementById('buttonLimpar');
 
+//Função criar a lista 
 function clickTarefa () {
     const texto = tarefainput.value; // pega valor do input
     if (texto.trim() !== "") { // Evita adicionar vazio
@@ -14,7 +16,7 @@ function clickTarefa () {
         alert("O campo esta vazio");
     }
 }
-
+//função botão limpar
 function buttonlimpar () {
     lista.innerHTML = "";
 }
