@@ -1,0 +1,88 @@
+/* layout geral  */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-size: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+}
+
+/* variveis global */
+:root {
+    --cor-azul: #191970;
+    --cor-branco: #ffff;
+    --cor-verde: #018234;
+    --cor-fundo: #333333;
+    --font-family: Arial;
+    --font-size-headling: 45px;
+    --font-size-paragrafo: 15px;
+    --font-size-button: 12px;
+}
+
+/* container de 80% */
+body {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* centralização na tela do itens */
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /*altura*/
+    width: 50%;  /*largura*/
+    border: 5px solid var(--cor-verde);
+    background-color: var(--cor-fundo);
+}
+
+h1 {
+    font-family: var(--font-family);
+    margin: auto;
+    font-size: var(--font-size-headling);
+    color: var(--cor-branco);
+    font-style: oblique;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: var(--font-family);
+    margin: auto;
+    font-size: 20px;
+    color: var(--cor-branco);
+    font-style: oblique;
+    font-weight: 700;
+}
+
+button {
+    font-family: var(--font-family);
+    font-size: medium;
+    border: 2px solid var(--cor-branco);
+    border-radius: 8px;
+    padding: 8px;
+    margin: auto;
+    cursor: pointer;
+    background-color: #ffff;
+    color: #018234;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: var(--cor-verde);
+    color: var(--cor-branco);
+    border: 2px solid var(--cor-branco);
+}
+
+P {
+    color: var(--cor-branco);
+    margin: auto;
+    text-decoration: underline;
+}
