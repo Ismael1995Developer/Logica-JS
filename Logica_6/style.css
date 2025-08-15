@@ -41,7 +41,6 @@ body div {
     align-items: center;
     height: auto; /*altura*/
     width: 60%;  /*largura*/
-    border: 5px solid var(--cor-verde);
     background-color: var(--cor-fundo);
 }
 
@@ -61,6 +60,8 @@ ul li {
     color: var(--cor-branco);
     list-style-type: none;
     font-size: 15px;
+    display: inline-flex;
+    padding: 10px;    
 }
 
 input {
@@ -80,11 +81,16 @@ input:focus {
   border-color: red;
   box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
 }
-
+.buttonContainer {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    margin: 10px 15px;
+}
 button {
     font-family: var(--font-family);
     font-size: medium;
-    border: 2px solid var(--cor-branco);
+    border: 2px solid var(--cor-verde);
     border-radius: 8px;
     padding: 8px;
     margin: auto;
