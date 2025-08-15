@@ -1,0 +1,30 @@
+/* tipografia */
+
+header h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px auto;
+    font-size: 45px;
+}
+
+main section h2 {
+ justify-content: start;
+ margin: 25px auto;
+ color: blue;
+}
+
+/* corpo da pagina */
+
+main section input {
+    margin: 20px auto;
+    width: 60%;
+    height: auto;
+}
+
+main section button {
+    margin: 30px auto;
+}
+
+main section input {
+    margin: 20px;
+}
